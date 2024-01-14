@@ -24,11 +24,11 @@ function isValid(chute){
       <h3>O número secreto era ${random}</h3>
     `
   } else if(numero > random){
-    document.body.innerHTML += `
+    elChute.body.innerHTML += `
     <div>O número secreto é menor <span><i class="fa-solid fa-arrow-down"></i></span></div>
     `
   } else if(numero < random){
-    document.body.innerHTML += `
+    elChute.body.innerHTML += `
     <div>O número secreto é maior <span><i class="fa-solid fa-arrow-up"></i></span></div>
     `
   }

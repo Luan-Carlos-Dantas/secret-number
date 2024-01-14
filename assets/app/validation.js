@@ -29,7 +29,7 @@ function isValid(chute){
     `
   } else if(chute < random){
     document.body.innerHTML += `
-    <div>O número secreto é menor <span><i class="fa-solid fa-arrow-up"></i></span></div>
+    <div>O número secreto é maior <span><i class="fa-solid fa-arrow-up"></i></span></div>
     `
   }
 }

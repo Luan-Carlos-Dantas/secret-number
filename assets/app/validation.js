@@ -18,16 +18,16 @@ function isValid(chute){
     return
   }
 
-  if(chute === random){
+  if(numero === random){
     document.body.innerHTML = `
       <h1>Você Acertou !!!</h1>
       <h3>O número secreto era ${random}</h3>
     `
-  } else if(chute > random){
+  } else if(numero > random){
     document.body.innerHTML += `
     <div>O número secreto é menor <span><i class="fa-solid fa-arrow-down"></i></span></div>
     `
-  } else if(chute < random){
+  } else if(numero < random){
     document.body.innerHTML += `
     <div>O número secreto é maior <span><i class="fa-solid fa-arrow-up"></i></span></div>
     `

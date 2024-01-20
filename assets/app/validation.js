@@ -18,18 +18,18 @@ function isValid(chute){
     return
   }
 
-  if(numero === random){
+  if(chute === random){
     elChute.body.innerHTML = `
       <h1>Você Acertou !!!</h1>
       <h3>O número secreto era ${random}</h3>
       <br>
       <button id="playAgain" class="btn-jogar">Jogue novamente</button>
     `
-  } else if(numero > random){
+  } else if(chute > random){
     elChute.body.innerHTML += `
     <div>O número secreto é menor <span><i class="fa-solid fa-arrow-down"></i></span></div>
     `
-  } else if(numero < random){
+  } else if(chute < random){
     elChute.body.innerHTML += `
     <div>O número secreto é maior <span><i class="fa-solid fa-arrow-up"></i></span></div>
     `
